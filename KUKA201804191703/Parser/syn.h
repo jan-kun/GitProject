@@ -1,0 +1,62 @@
+#ifndef SYN_H
+#define SYN_H
+
+#define SYN_IF                   0x40
+#define SYN_FOR               0x41
+#define SYN_WHILE           0x42
+#define SYN_LOOP             0x43
+#define SYN_REPEAT          0x44
+#define SYN_SWITCH         0x45
+#define SYN_WAIT              0x46
+#define SYN_PTP                0x47
+#define SYN_LIN                 0x48
+#define SYN_CIRC               0x49
+#define SYN_SLIN               0x4A
+#define SYN_SCIRC             0x4B
+#define SYN_THEN              0x4C
+#define SYN_TO                   0x4D
+#define SYN_ENDIF             0x50
+#define SYN_ENDFOR         0x51
+#define SYN_ENDLOOP      0x52
+#define SYN_ENDWHILE     0x53
+#define SYN_UNTIL             0x54
+#define SYN_ENDSWITCH   0x55
+#define SYN_ID                     0x56
+#define SYN_NUM                0x57
+#define SYN_ADD                 0x58
+#define SYN_SUBTRACT       0x59
+#define SYN_MUTI                0x5A
+#define SYN_DIVI                  0x5B
+#define SYN_GREATER          0X5C
+#define SYN_LESS                  0x5D
+#define SYN_EQUAL              0x5E
+#define SYN_GREATEQU       0x5F
+#define SYN_LESSEQU          0x60
+#define SYN_AND                  0x61
+#define SYN_OR                     0x62
+#define SYN_LEFTBRACK       0x63
+#define SYN_RIGHTBRACK    0x64
+#define SYN_ASSIGN              0x65
+#define SYN_COMMENT        0x66
+#define SYN_DIGI                   0x67
+#define SYN_DIGO                 0x68
+#define SYN_DIAI                   0x69
+#define SYN_DIAO                 0x6A
+#define SYN_CASE                0x6C
+#define SYN_STEP                0x6D
+#define SYN_LINEND           0x6E
+#define SYN_INT                  0x6F
+#define SYN_REAL                0x70
+#define SYN_BOOL               0x71
+#define SYN_CHAR               0x72
+#define SYN_DECL                0x73
+#define SYN_LETTER             0x74
+
+#define SYN_E6OS                0x80
+#define SYN_FDAT                0x81
+#define SYN_PDAT                0x82
+#define SYN_LDAT                0x83
+
+#define SYN_DEF                   0x90
+#define SYN_END                  0x91
+#endif // SYN_H
